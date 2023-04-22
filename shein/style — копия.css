@@ -1,0 +1,73 @@
+body{
+   margin: 0px;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color:darkgray;
+    
+    background-color: #515369;
+}   
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+/* Container
+================*/ 
+
+    .container{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+}
+/* Header
+================*/ 
+.header{
+    width: 100%;
+    padding:15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #000003;
+    align-items: center;
+}
+/* Nav
+================*/ 
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav__link{
+    margin-left: 50px;
+    color: darkgrey;
+    text-decoration: none;
+    opacity: .75;
+   
+    transition: opacity .3s 
+    linear;
+}
+.nav__link:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.nav__link:first-child{
+    margin-left: 0px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+/* intro
+============*/
+.intro{
+    height: 750px;
+    background: #31344e url(SHEIN-tienda-fisica-en-mexico.webp) center no-repeat/cover;
+}
