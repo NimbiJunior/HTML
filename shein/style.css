@@ -3,7 +3,7 @@ body{
    font-family: 'Lato', sans-serif;
    font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
-    color:darkgray;
+    color:rgb(255, 255, 255);
     
     background-color: #515369;
 }   
@@ -11,6 +11,12 @@ body{
 *:before,
 *::after {
     box-sizing: border-box;
+}
+h1 h2 h3 h4 h5 h5{
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
 }
 /* Container
 ================*/ 
@@ -24,6 +30,7 @@ body{
 ================*/ 
 .header{
     width: 100%;
+    height: 100px;
     padding:15px;
     position: absolute;
     top: 0;
@@ -47,7 +54,7 @@ body{
 }
 .nav__link{
     margin-left: 50px;
-    color: darkgrey;
+    color: rgb(58, 83, 109);
     text-decoration: none;
     opacity: .75;
    
@@ -65,9 +72,29 @@ img{
     width: 250px;
     height: 250px;
 }
-/* intro
+/* Intro
 ============*/
 .intro{
-    height: 750px;
-    background: #31344e url(SHEIN-tienda-fisica-en-mexico.webp) center no-repeat/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    background: #8689a6 url(1617535466_44-p-oboi-tsveti-estetika-49.jpg)
+     no-repeat center/cover;
+     padding-top: 280px;
+}
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.intro__title{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    color:#41424b;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
