@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+   color: rgb(15, 105, 94); 
+   margin-left: 30%;
+}
+
+p {
+    font-weight:bold;
+    font-size:18px;
+    margin-left: 0%;
+    height: 50%;
+    background-color: rgba(171, 225, 236, 0.89);
+    border:2px solid rgb(171, 225, 236, 0.89) ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+h2 {
+    margin-left: 630px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
