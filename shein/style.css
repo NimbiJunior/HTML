@@ -4,6 +4,7 @@ body{
    font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
     color:rgb(255, 255, 255);
+   -webkit-font-smoothing: antialiased;
     
     background-color: #515369;
 }   
@@ -54,7 +55,7 @@ p{
 }
 .nav__link{
     margin-left: 50px;
-    color: rgb(58, 83, 109);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     opacity: .75;
    
@@ -79,22 +80,55 @@ img{
     flex-direction: column;
     justify-content: center;
     height: 800px;
-    background: #8689a6 url(1617535466_44-p-oboi-tsveti-estetika-49.jpg)
+    background: #facfff url(Downkfo.jpg)
      no-repeat center/cover;
      padding-top: 280px;
+     text-align: center;
 }
 .intro__inner{
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
+    text-align: center;
 }
 .intro__title{
-    margin: 0;
+    margin: 0 0 30px;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-size: 45px;
-    color:#41424b;
+    line-height: 1.1;
+    color:#fafafa;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+}
+.intro__subtitle{
+    font-size: 22px;
+    color:#ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* Button
+============*/
+.btn{
+    font-family: inherit;
+    border: 0;
+    cursor: pointer;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding: 14px 40px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn--red{
+    background-color: #000003;
+}
+.btn--red:hover{
+    background-color: #000003ea;
 }
