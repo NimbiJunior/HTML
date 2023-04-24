@@ -132,3 +132,8 @@ img{
 .btn--red:hover{
     background-color: #000003ea;
 }
+/*Features
+==============*/
+.features{
+    display: flex;
+}
