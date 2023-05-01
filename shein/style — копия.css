@@ -124,7 +124,7 @@ img{
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .btn--red{
     background-color: #000003;
@@ -136,22 +136,4 @@ img{
 ==============*/
 .features{
     display: flex;
-    margin: 100px 0;
-}
-.features__item{
-    width: 33.33333%;
-    text-align: center;
-    font-size: 18px;
-    
-
-}
-.features__icon{
-    margin-bottom: 20px;
-}
-.features__title{
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-    text-transform: uppercase;
 }
