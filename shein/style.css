@@ -6,7 +6,7 @@ body{
     color:rgb(255, 255, 255);
    -webkit-font-smoothing: antialiased;
     
-    background-color: #515369;
+    background-color: #373c57;
 }   
 *,
 *:before,
@@ -142,6 +142,7 @@ img{
     width: 33.33333%;
     text-align: center;
     font-size: 18px;
+    padding: 0 30px;
     
 
 }
@@ -154,4 +155,9 @@ img{
     color: black;
     font-weight: 700;
     text-transform: uppercase;
+}
+.features__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f1f1f1;
 }
